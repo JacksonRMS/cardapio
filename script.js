@@ -1,0 +1,1 @@
+console.log("paz para a humanidade")
