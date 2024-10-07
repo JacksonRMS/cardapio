@@ -1,5 +1,70 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background: radial-gradient(circle, rgba(203,201,201,1) 0%, rgba(14,20,20,1) 100%);
+
+} 
+
+header {
+    position: static;
+    text-align: center;
+    margin: 50px;
+}
+
+button{
+    width: 90px;
+    height:40px;
+    border: none;
+    background-color: rgb(245, 245, 119);
+    color: rgb(153, 43, 43);
+    margin: 10px;
+    transition: 0.6s ease-in-out;
+    border-radius: 7px;
+    filter: drop-shadow(3px 3px 5px black);
+}
+
+button:hover{
+    background-color:rgb(224, 224, 34) ;
+    border:solid 1.5px ;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 25px;
+    filter: drop-shadow(5px 5px 5px black);
+    transition: 0.7s ease-in-out;
+}
+
+img:hover{
+    border: solid 1.5px;
+    border-color: rgb(165, 127, 57);
+}
+
+nav{
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px;
+    gap: 50px;
+}
+
+p{
+    margin: 10px;
+    filter: drop-shadow(3px 3px 5px black);
+}
+
+.preço{
+    font-weight: bold;
+    color: rgb(143, 19, 19);
+    filter: drop-shadow(3px 3px 3px black);
 }
