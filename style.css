@@ -34,7 +34,7 @@ button:hover{
 
 img {
     width: 200px;
-    height: auto;
+    height: 200px;
     border-radius: 25px;
     filter: drop-shadow(5px 5px 5px black);
     transition: 0.7s ease-in-out;
@@ -56,6 +56,11 @@ ul {
     justify-content: center;
     grid-template-columns: 200px 200px 200px;
     gap: 50px;
+    
+}
+
+.oculto{
+    visibility: hidden visible;
 }
 
 p{
